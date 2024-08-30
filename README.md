@@ -40,6 +40,12 @@ python scripts/inference.py \
   --scale 5
 ```
 
+or simply run:
+```
+sh test.sh
+```
+
+
 ## Results
 
 ![](https://github.com/luolei5257/dd/blob/main/figure/table.jpg)
