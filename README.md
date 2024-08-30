@@ -45,6 +45,18 @@ or simply run:
 sh test.sh
 ```
 
+## Training
+Here are the links to download the required datasets:
+
+1. **Urban Building Energy Stock Datasets**:
+   - This dataset contains over one million records detailing residential urban building stocks, including types such as terraced houses, detached houses, semi-detached houses, and bungalows. It covers a wide range of building features such as HVAC systems and building fabric properties.
+   - [Download Urban Building Energy Stock Datasets](https://data.mendeley.com/datasets/m6vv9k9gcd/1)
+
+2. **Directory of Buildings Energy Consumption Data sets (DBECD)**:
+   - This directory provides detailed information on various building energy consumption datasets, categorized by the strategies used to collect them: measurement, survey, and simulation.
+   - [Visit DBECD Homepage](https://tokhub.github.io/dbecd/)
+
+
 
 ## Results
 
