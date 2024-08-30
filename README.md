@@ -16,6 +16,7 @@ potential in advancing energy efficiency and sustainability in urban environment
 ![](https://github.com/luolei5257/dd/blob/main/figure/over1131.jpg)
 
 ## Requirements
+
 ```bash
 git clone https://github.com/luolei5257/dd  # clone
 cd main
@@ -23,6 +24,22 @@ conda env create -f environment.yaml
 conda activate TRD-Net
 pip install -r requirements.txt  # install
 ```
+## Testing
+
+To sample from our model, you can use scripts/inference.py. For example,
+```bash
+python scripts/inference.py \
+  --plms \
+  --outdir results \
+  --config configs/v1.yaml \
+  --ckpt checkpoints/model.ckpt \
+  --image_path examples/image/example_1.png \
+  --mask_path examples/mask/example_1.png \
+  --reference_path examples/reference/example_1.jpg \
+  --seed 230 \
+  --scale 5
+```
+
 ## Results
 
 ![](https://github.com/luolei5257/dd/blob/main/figure/table.jpg)
