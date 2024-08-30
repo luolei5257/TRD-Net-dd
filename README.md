@@ -1,6 +1,6 @@
 # Code will be open-sourced soon
 
-#TRD-Net
+# TRD-Net
 
 ## Abstract
 Urbanization intensifies building energy consumption and carbon emissions, challenging
