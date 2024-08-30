@@ -56,9 +56,18 @@ Here are the links to download the required datasets:
    - This directory provides detailed information on various building energy consumption datasets, categorized by the strategies used to collect them: measurement, survey, and simulation.
    - [Visit DBECD Homepage](https://tokhub.github.io/dbecd/)
 
-Generate bbox annotations of each image in txt format：
+Generate format：
 ```
 python scripts/read_bbox.py
+```
+
+### Training TRD-Net
+```
+python -u main.py \
+--logdir models/TRD-Net \
+--pretrained_model pretrained_models/TRD-Netv1-4.ckpt \
+--base configs/v1.yaml \
+--scale_lr False
 ```
 
 ## Results
