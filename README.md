@@ -12,3 +12,8 @@ potential in advancing energy efficiency and sustainability in urban environment
 
 ![](https://github.com/luolei5257/dd/blob/main/figure/over1131.jpg)
 
+```bash
+git clone https://github.com/ultralytics/yolov5  # clone
+cd yolov5
+pip install -r requirements.txt  # install
+```
