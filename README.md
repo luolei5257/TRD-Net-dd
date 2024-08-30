@@ -1,5 +1,8 @@
-# TRD-Net
+# Code will be open-sourced soon
 
+#TRD-Net
+
+## Abstract
 Urbanization intensifies building energy consumption and carbon emissions, challenging
 sustainable development. This study introduces the Temporal Convolutional
 Network-Residual Network-Deep Reinforcement Learning (TRD-Net) model, a hybrid
@@ -17,3 +20,6 @@ git clone https://github.com/luolei5257/dd  # clone
 cd main
 pip install -r requirements.txt  # install
 ```
+## Results
+
+![](https://github.com/luolei5257/dd/blob/main/figure/table.jpg)
